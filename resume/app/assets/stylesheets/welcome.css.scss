@@ -2,101 +2,46 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 0.89);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(171, 107, 219, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: white;
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle.collapsed:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle.collapsed:focus {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ab6bdb;
 }
 
-li {
-	float: left;
-
-}
-
-a:link, a:visited {
-	display: block;
-	width: 120px;
-	font-weight: bold;
-	color: #FFFFFF;
-	background-color: #0000CC;
-	text-align: center;
-	padding: 4px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-a:hover, a:active {
-	background-color: #C0C0C0;
-}
-
-/*** Placement Code ***/
-
-body {
-	margin: 0;
-	padding-left: 200px;  
-	padding-right: 190px; 
-	min-width: 240px;     
-}
-
-#header, #footer {
-	margin-left: -200px;   
-	margin-right: -190px;  
-}
-
-.column {
-	position: relative;
-	float: left;
-	padding-top: 1em;
-	text-align: justify;
-}
-
-#center {
-	padding: 0 20px;
-	width: 100%;
-}
-
-#left {
-	width: 180px;      
-	padding: 0 10px;   
-	right: 240px;      
-	margin-left: -100%;
-}
-
-#right {
-	width: 130px;         
-	padding: 0 10px;      
-	margin-right: -100%;
-}
-
-#footer {
-	clear: both;
-}
-
-
-/*** Just for Looks ***/
-
-body {
-	background: #C0C0C0;
-}
-
-#header, #footer {
-	font-size: large;
-	text-align: center;
-	padding: 0.3em 0;
-	background: #0000CC;
-	color: white;
-}
-
-#center {
-	background: #FFFFFF;
-}
-
-#left {
-	background: #C0C0C0;
-}
-
-
-#right {
-	background: #C0C0C0;
+#custom-bootstrap-menu.navbar-default #rightnav>li>a{
+	color: black;
+    background-color: white;
 }
