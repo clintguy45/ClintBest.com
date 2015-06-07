@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'projects/project_one' 
+
+  get 'projects/project_two'
+
+  get 'projects/project_three'
+
+  get 'projects/project_four'
+
+  get 'projects/project_five'
+
   get 'welcome/index', :as => :welcome
 
   # The priority is based upon order of creation: first created -> highest priority.

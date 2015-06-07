@@ -16,11 +16,11 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-			<li role="presentation"><a href="/Project1">Project1</a></li>
-			<li role="presentation"><a href="/Project2">Project2</a></li>
-			<li role="presentation"><a href="/Project3">Project3</a></li>
-			<li role="presentation"  class="disabled"><a href="#">Project4</a></li>
-			<li role="presentation"  class="disabled"><a href="#">Project5</a></li>
+			<li role="presentation"><%= link_to 'Project 1', :controller => 'projects', :action => 'project_one'%></li>
+			<li role="presentation"><%= link_to 'Project 2', :controller => 'projects', :action => 'project_two'%></li>
+			<li role="presentation"><%= link_to 'Project 3', :controller => 'projects', :action => 'project_three'%></li>
+			<li role="presentation"><%= link_to 'Project 4', :controller => 'projects', :action => 'project_four'%></li>
+			<li role="presentation"><%= link_to 'Project 5', :controller => 'projects', :action => 'project_five'%></li>
           </ul>
         </li>
       </ul>
@@ -28,25 +28,33 @@
 	  	<li>
 	  	  <span class="fa-stack fa-lg">
   		    <i class="fa fa-square-o fa-stack-2x"></i>
-            <a  color:"black" href="https://www.linkedin.com/pub/clint-best/48/175/676"><i class="fa my-fa-linkedin fa-stack-1x"></i></a>
+            <a href="https://www.linkedin.com/pub/clint-best/48/175/676" target="blank">
+              <i class="fa my-fa-linkedin fa-stack-1x"></i>
+            </a>
           </span>
         </li>
 	  	<li>
 	  	  <span class="fa-stack fa-lg">
   		    <i class="fa fa-square-o fa-stack-2x"></i>
-            <a href="https://www.facebook.com/clinton.best"><i class="fa my-fa-facebook fa-stack-1x"></i></a>
+            <a href="https://www.facebook.com/clinton.best" target="blank">
+              <i class="fa my-fa-facebook fa-stack-1x"></i>
+            </a>
           </span>
         </li>
 	  	<li>
 	  	  <span class="fa-stack fa-lg">
   		    <i class="fa fa-square-o fa-stack-2x"></i>
-            <a href="https://github.com/clintguy45/"><i class="fa my-fa-github fa-stack-1x"></i></a>
+            <a href="https://github.com/clintguy45/" target="blank">
+              <i class="fa my-fa-github fa-stack-1x"></i>
+            </a>
           </span>
         </li>
 	  	<li>
 	  	  <span class="fa-stack fa-lg">
   		    <i class="fa fa-square-o fa-stack-2x"></i>
-            <a  href="https://plus.google.com/u/0/103108263364315892439/posts"><i class="fa my-fa-google-plus fa-stack-1x"></i></a>
+            <a  href="https://plus.google.com/u/0/103108263364315892439/posts" target="blank">
+              <i class="fa my-fa-google-plus fa-stack-1x"></i>
+            </a>
           </span>
         </li>
       </ul>
