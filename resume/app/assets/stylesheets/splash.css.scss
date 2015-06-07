@@ -1,0 +1,42 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato|Ubuntu|Oswald);
+
+#splash_container { 
+	width: 50%; 
+	margin: 100px auto; 
+	padding: 20px; 
+	background: black; 
+	background-color: rgba(0,0,0,0.6); 
+	text-align: center; 
+	border-radius: 40px;
+	line-height: 1.5;
+	color: white;
+}
+
+body.homepage {
+	background: url('splash1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Helvetica Neue', Helvetica;
+	font-weight: 100;
+	font-size: 60px;
+}
+
+p {
+	font-family: 'Lato', Helvetica;
+	font-weight: 200;
+}
+
+#entersite {
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}

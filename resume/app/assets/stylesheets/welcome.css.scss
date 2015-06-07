@@ -2,17 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
 #custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(255, 255, 255, 0.89);
+    color: black;
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 14px;
-    background-color: rgba(171, 107, 219, 1);
+    background-color: #EDEDED;
     border-width: 0px;
     border-radius: 0px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(255, 255, 255, 1);
+    color: black;
     background-color: rgba(248, 248, 248, 0);
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
@@ -23,7 +25,7 @@
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(255, 255, 255, 1);
+    color: black;
     background-color: rgba(0, 0, 0, 1);
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
@@ -41,7 +43,20 @@
     background-color: #ab6bdb;
 }
 
-#custom-bootstrap-menu.navbar-default #rightnav>li>a{
+#center_area {
+	background-color: white;
+	margin-bottom: 1cm;
+	border-width: 100%;
+	border-color: black;
+}
+
+#main_footer {
+	background-color: #EDEDED;
+	padding-top: 0.5em;
 	color: black;
-    background-color: white;
+}
+
+#rightnav {
+	padding-top: 0.5em;
+	padding-bottom: 0;
 }
